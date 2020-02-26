@@ -1436,10 +1436,7 @@
           </dict>
           <dict>
             <key>match</key>
-            <dict>
-              <key>keyword</key>
-              <string>monotonicAggregates</string>
-            </dict>
+            <string>monotonicAggregates</string>
             <key>name</key>
             <string>storage.modifier.ql</string>
           </dict>

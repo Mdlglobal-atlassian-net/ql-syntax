@@ -747,8 +747,7 @@ repository:
     name: meta.block.language-annotation-body.ql
     patterns:
     - include: '#non-context-sensitive'
-    - match:
-        keyword: 'monotonicAggregates'
+    - match: 'monotonicAggregates'
       name: storage.modifier.ql
 
   # A `pragma` annotation, including its arguments.
