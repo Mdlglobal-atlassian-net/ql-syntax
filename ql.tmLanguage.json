@@ -627,15 +627,6 @@
               "while": "(?x)(^|\\G)\\s*([^*]|\\*(?!/))(?=([^*]|[*](?!/))*$)",
               "patterns": [
                 {
-                  "include": "text.html.markdown#fenced_code_block"
-                },
-                {
-                  "include": "text.html.markdown#lists"
-                },
-                {
-                  "include": "text.html.markdown#inline"
-                },
-                {
                   "match": "(?x)\\G\\s* (@\\S+)",
                   "name": "keyword.tag.ql"
                 }

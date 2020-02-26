@@ -984,18 +984,6 @@
                 <key>patterns</key>
                 <array>
                   <dict>
-                    <key>include</key>
-                    <string>text.html.markdown#fenced_code_block</string>
-                  </dict>
-                  <dict>
-                    <key>include</key>
-                    <string>text.html.markdown#lists</string>
-                  </dict>
-                  <dict>
-                    <key>include</key>
-                    <string>text.html.markdown#inline</string>
-                  </dict>
-                  <dict>
                     <key>match</key>
                     <string>(?x)\G\s* (@\S+)</string>
                     <key>name</key>
