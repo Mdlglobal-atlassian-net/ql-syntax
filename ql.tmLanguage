@@ -249,490 +249,343 @@
       <key>dont-care</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>_</string>
-        </dict>
+        <string>_</string>
         <key>name</key>
         <string>variable.language.dont-care.ql</string>
       </dict>
       <key>and</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>and</string>
-        </dict>
+        <string>and</string>
         <key>name</key>
         <string>keyword.other.and.ql</string>
       </dict>
       <key>any</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>any</string>
-        </dict>
+        <string>any</string>
         <key>name</key>
         <string>keyword.quantifier.any.ql</string>
       </dict>
       <key>as</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>as</string>
-        </dict>
+        <string>as</string>
         <key>name</key>
         <string>keyword.other.as.ql</string>
       </dict>
       <key>asc</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>asc</string>
-        </dict>
+        <string>asc</string>
         <key>name</key>
         <string>keyword.order.asc.ql</string>
       </dict>
       <key>avg</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>avg</string>
-        </dict>
+        <string>avg</string>
         <key>name</key>
         <string>keyword.aggregate.avg.ql</string>
       </dict>
       <key>boolean</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>boolean</string>
-        </dict>
+        <string>boolean</string>
         <key>name</key>
         <string>keyword.type.boolean.ql</string>
       </dict>
       <key>by</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>by</string>
-        </dict>
+        <string>by</string>
         <key>name</key>
         <string>keyword.order.by.ql</string>
       </dict>
       <key>class</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>class</string>
-        </dict>
+        <string>class</string>
         <key>name</key>
         <string>keyword.other.class.ql</string>
       </dict>
       <key>concat</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>concat</string>
-        </dict>
+        <string>concat</string>
         <key>name</key>
         <string>keyword.aggregate.concat.ql</string>
       </dict>
       <key>count</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>count</string>
-        </dict>
+        <string>count</string>
         <key>name</key>
         <string>keyword.aggregate.count.ql</string>
       </dict>
       <key>date</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>date</string>
-        </dict>
+        <string>date</string>
         <key>name</key>
         <string>keyword.type.date.ql</string>
       </dict>
       <key>desc</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>desc</string>
-        </dict>
+        <string>desc</string>
         <key>name</key>
         <string>keyword.order.desc.ql</string>
       </dict>
       <key>else</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>else</string>
-        </dict>
+        <string>else</string>
         <key>name</key>
         <string>keyword.other.else.ql</string>
       </dict>
       <key>exists</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>exists</string>
-        </dict>
+        <string>exists</string>
         <key>name</key>
         <string>keyword.quantifier.exists.ql</string>
       </dict>
       <key>extends</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>extends</string>
-        </dict>
+        <string>extends</string>
         <key>name</key>
         <string>keyword.other.extends.ql</string>
       </dict>
       <key>false</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>false</string>
-        </dict>
+        <string>false</string>
         <key>name</key>
         <string>constant.language.boolean.false.ql</string>
       </dict>
       <key>float</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>float</string>
-        </dict>
+        <string>float</string>
         <key>name</key>
         <string>keyword.type.float.ql</string>
       </dict>
       <key>forall</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>forall</string>
-        </dict>
+        <string>forall</string>
         <key>name</key>
         <string>keyword.quantifier.forall.ql</string>
       </dict>
       <key>forex</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>forex</string>
-        </dict>
+        <string>forex</string>
         <key>name</key>
         <string>keyword.quantifier.forex.ql</string>
       </dict>
       <key>from</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>from</string>
-        </dict>
+        <string>from</string>
         <key>name</key>
         <string>keyword.other.from.ql</string>
       </dict>
       <key>if</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>if</string>
-        </dict>
+        <string>if</string>
         <key>name</key>
         <string>keyword.other.if.ql</string>
       </dict>
       <key>implies</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>implies</string>
-        </dict>
+        <string>implies</string>
         <key>name</key>
         <string>keyword.other.implies.ql</string>
       </dict>
       <key>import</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>import</string>
-        </dict>
+        <string>import</string>
         <key>name</key>
         <string>keyword.other.import.ql</string>
       </dict>
       <key>in</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>in</string>
-        </dict>
+        <string>in</string>
         <key>name</key>
         <string>keyword.other.in.ql</string>
       </dict>
       <key>instanceof</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>instanceof</string>
-        </dict>
+        <string>instanceof</string>
         <key>name</key>
         <string>keyword.other.instanceof.ql</string>
       </dict>
       <key>int</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>int</string>
-        </dict>
+        <string>int</string>
         <key>name</key>
         <string>keyword.type.int.ql</string>
       </dict>
       <key>max</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>max</string>
-        </dict>
+        <string>max</string>
         <key>name</key>
         <string>keyword.aggregate.max.ql</string>
       </dict>
       <key>min</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>min</string>
-        </dict>
+        <string>min</string>
         <key>name</key>
         <string>keyword.aggregate.min.ql</string>
       </dict>
       <key>module</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>module</string>
-        </dict>
+        <string>module</string>
         <key>name</key>
         <string>keyword.other.module.ql</string>
       </dict>
       <key>newtype</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>newtype</string>
-        </dict>
+        <string>newtype</string>
         <key>name</key>
         <string>keyword.other.newtype.ql</string>
       </dict>
       <key>none</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>none</string>
-        </dict>
+        <string>none</string>
         <key>name</key>
         <string>keyword.quantifier.none.ql</string>
       </dict>
       <key>not</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>not</string>
-        </dict>
+        <string>not</string>
         <key>name</key>
         <string>keyword.other.not.ql</string>
       </dict>
       <key>or</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>or</string>
-        </dict>
+        <string>or</string>
         <key>name</key>
         <string>keyword.other.or.ql</string>
       </dict>
       <key>order</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>order</string>
-        </dict>
+        <string>order</string>
         <key>name</key>
         <string>keyword.order.order.ql</string>
       </dict>
       <key>predicate</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>predicate</string>
-        </dict>
+        <string>predicate</string>
         <key>name</key>
         <string>keyword.other.predicate.ql</string>
       </dict>
       <key>rank</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>rank</string>
-        </dict>
+        <string>rank</string>
         <key>name</key>
         <string>keyword.aggregate.rank.ql</string>
       </dict>
       <key>result</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>result</string>
-        </dict>
+        <string>result</string>
         <key>name</key>
         <string>variable.language.result.ql</string>
       </dict>
       <key>select</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>select</string>
-        </dict>
+        <string>select</string>
         <key>name</key>
         <string>keyword.query.select.ql</string>
       </dict>
       <key>strictconcat</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>strictconcat</string>
-        </dict>
+        <string>strictconcat</string>
         <key>name</key>
         <string>keyword.aggregate.strictconcat.ql</string>
       </dict>
       <key>strictcount</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>strictcount</string>
-        </dict>
+        <string>strictcount</string>
         <key>name</key>
         <string>keyword.aggregate.strictcount.ql</string>
       </dict>
       <key>strictsum</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>strictsum</string>
-        </dict>
+        <string>strictsum</string>
         <key>name</key>
         <string>keyword.aggregate.strictsum.ql</string>
       </dict>
       <key>string</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>string</string>
-        </dict>
+        <string>string</string>
         <key>name</key>
         <string>keyword.type.string.ql</string>
       </dict>
       <key>sum</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>sum</string>
-        </dict>
+        <string>sum</string>
         <key>name</key>
         <string>keyword.aggregate.sum.ql</string>
       </dict>
       <key>super</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>super</string>
-        </dict>
+        <string>super</string>
         <key>name</key>
         <string>variable.language.super.ql</string>
       </dict>
       <key>then</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>then</string>
-        </dict>
+        <string>then</string>
         <key>name</key>
         <string>keyword.other.then.ql</string>
       </dict>
       <key>this</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>this</string>
-        </dict>
+        <string>this</string>
         <key>name</key>
         <string>variable.language.this.ql</string>
       </dict>
       <key>true</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>true</string>
-        </dict>
+        <string>true</string>
         <key>name</key>
         <string>constant.language.boolean.true.ql</string>
       </dict>
       <key>where</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>where</string>
-        </dict>
+        <string>where</string>
         <key>name</key>
         <string>keyword.query.where.ql</string>
       </dict>
@@ -971,130 +824,91 @@
       <key>abstract</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>abstract</string>
-        </dict>
+        <string>abstract</string>
         <key>name</key>
         <string>storage.modifier.abstract.ql</string>
       </dict>
       <key>bindingset</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>bindingset</string>
-        </dict>
+        <string>bindingset</string>
         <key>name</key>
         <string>storage.modifier.bindingset.ql</string>
       </dict>
       <key>cached</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>cached</string>
-        </dict>
+        <string>cached</string>
         <key>name</key>
         <string>storage.modifier.cached.ql</string>
       </dict>
       <key>deprecated</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>deprecated</string>
-        </dict>
+        <string>deprecated</string>
         <key>name</key>
         <string>storage.modifier.deprecated.ql</string>
       </dict>
       <key>external</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>external</string>
-        </dict>
+        <string>external</string>
         <key>name</key>
         <string>storage.modifier.external.ql</string>
       </dict>
       <key>final</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>final</string>
-        </dict>
+        <string>final</string>
         <key>name</key>
         <string>storage.modifier.final.ql</string>
       </dict>
       <key>language</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>language</string>
-        </dict>
+        <string>language</string>
         <key>name</key>
         <string>storage.modifier.language.ql</string>
       </dict>
       <key>library</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>library</string>
-        </dict>
+        <string>library</string>
         <key>name</key>
         <string>storage.modifier.library.ql</string>
       </dict>
       <key>override</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>override</string>
-        </dict>
+        <string>override</string>
         <key>name</key>
         <string>storage.modifier.override.ql</string>
       </dict>
       <key>pragma</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>pragma</string>
-        </dict>
+        <string>pragma</string>
         <key>name</key>
         <string>storage.modifier.pragma.ql</string>
       </dict>
       <key>private</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>private</string>
-        </dict>
+        <string>private</string>
         <key>name</key>
         <string>storage.modifier.private.ql</string>
       </dict>
       <key>query</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>query</string>
-        </dict>
+        <string>query</string>
         <key>name</key>
         <string>storage.modifier.query.ql</string>
       </dict>
       <key>transient</key>
       <dict>
         <key>match</key>
-        <dict>
-          <key>keyword</key>
-          <string>transient</string>
-        </dict>
+        <string>transient</string>
         <key>name</key>
         <string>storage.modifier.transient.ql</string>
       </dict>

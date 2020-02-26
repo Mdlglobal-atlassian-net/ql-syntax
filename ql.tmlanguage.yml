@@ -183,248 +183,199 @@ repository:
 
 # Keywords
   dont-care:
-    match:
-      keyword: '_'
+    match: '_'
     name: variable.language.dont-care.ql
   
   and:
-    match:
-      keyword: 'and'
+    match: 'and'
     name: keyword.other.and.ql
 
   any:
-    match:
-      keyword: 'any'
+    match: 'any'
     name: keyword.quantifier.any.ql
 
   as:
-    match:
-      keyword: 'as'
+    match: 'as'
     name: keyword.other.as.ql
 
   asc:
-    match:
-      keyword: 'asc'
+    match: 'asc'
     name: keyword.order.asc.ql
     
   avg:
-    match:
-      keyword: 'avg'
+    match: 'avg'
     name: keyword.aggregate.avg.ql
     
   boolean:
-    match:
-      keyword: 'boolean'
+    match: 'boolean'
     name: keyword.type.boolean.ql
 
   by:
-    match:
-      keyword: 'by'
+    match: 'by'
     name: keyword.order.by.ql
 
   class:
-    match:
-      keyword: 'class'
+    match: 'class'
     name: keyword.other.class.ql
 
   concat:
-    match:
-      keyword: 'concat'
+    match: 'concat'
     name: keyword.aggregate.concat.ql
 
   count:
-    match:
-      keyword: 'count'
+    match: 'count'
     name: keyword.aggregate.count.ql
     
   date:
-    match:
-      keyword: 'date'
+    match: 'date'
     name: keyword.type.date.ql
     
   desc:
-    match:
-      keyword: 'desc'
+    match: 'desc'
     name: keyword.order.desc.ql
     
   else:
-    match:
-      keyword: 'else'
+    match: 'else'
     name: keyword.other.else.ql
 
   exists:
-    match:
-      keyword: 'exists'
+    match: 'exists'
     name: keyword.quantifier.exists.ql
   
   extends:
-    match:
-      keyword: 'extends'
+    match: 'extends'
     name: keyword.other.extends.ql
 
   false:
-    match:
-      keyword: 'false'
+    match: 'false'
     name: constant.language.boolean.false.ql
 
   float:
-    match:
-      keyword: 'float'
+    match: 'float'
     name: keyword.type.float.ql
 
   forall:
-    match:
-      keyword: 'forall'
+    match: 'forall'
     name: keyword.quantifier.forall.ql
 
   forex:
-    match:
-      keyword: 'forex'
+    match: 'forex'
     name: keyword.quantifier.forex.ql
 
   from:
-    match:
-      keyword: 'from'
+    match: 'from'
     name: keyword.other.from.ql
 
   if:
-    match:
-      keyword: 'if'
+    match: 'if'
     name: keyword.other.if.ql
     
   implies:
-    match:
-      keyword: 'implies'
+    match: 'implies'
     name: keyword.other.implies.ql
     
   import:
-    match:
-      keyword: 'import'
+    match: 'import'
     name: keyword.other.import.ql
 
   in:
-    match:
-      keyword: 'in'
+    match: 'in'
     name: keyword.other.in.ql
 
   instanceof:
-    match:
-      keyword: 'instanceof'
+    match: 'instanceof'
     name: keyword.other.instanceof.ql
 
   int:
-    match:
-      keyword: 'int'
+    match: 'int'
     name: keyword.type.int.ql
   
   max:
-    match:
-      keyword: 'max'
+    match: 'max'
     name: keyword.aggregate.max.ql
 
   min:
-    match:
-      keyword: 'min'
+    match: 'min'
     name: keyword.aggregate.min.ql
 
   module:
-    match:
-      keyword: 'module'
+    match: 'module'
     name: keyword.other.module.ql
     
   newtype:
-    match:
-      keyword: 'newtype'
+    match: 'newtype'
     name: keyword.other.newtype.ql
 
   none:
-    match:
-      keyword: 'none'
+    match: 'none'
     name: keyword.quantifier.none.ql
 
   not:
-    match:
-      keyword: 'not'
+    match: 'not'
     name: keyword.other.not.ql
 
   or:
-    match:
-      keyword: 'or'
+    match: 'or'
     name: keyword.other.or.ql
 
   order:
-    match:
-      keyword: 'order'
+    match: 'order'
     name: keyword.order.order.ql
 
   predicate:
-    match:
-      keyword: 'predicate'
+    match: 'predicate'
     name: keyword.other.predicate.ql
 
   rank:
-    match:
-      keyword: 'rank'
+    match: 'rank'
     name: keyword.aggregate.rank.ql
 
   result:
-    match:
-      keyword: 'result'
+    match: 'result'
     name: variable.language.result.ql
 
   select:
-    match:
-      keyword: 'select'
+    match: 'select'
     name: keyword.query.select.ql
 
   strictconcat:
-    match:
-      keyword: 'strictconcat'
+    match: 'strictconcat'
     name: keyword.aggregate.strictconcat.ql
 
   strictcount:
-    match:
-      keyword: 'strictcount'
+    match: 'strictcount'
     name: keyword.aggregate.strictcount.ql
 
   strictsum:
-    match:
-      keyword: 'strictsum'
+    match: 'strictsum'
     name: keyword.aggregate.strictsum.ql
 
   string:
-    match:
-      keyword: 'string'
+    match: 'string'
     name: keyword.type.string.ql
   
   sum:
-    match:
-      keyword: 'sum'
+    match: 'sum'
     name: keyword.aggregate.sum.ql
 
   super:
-    match:
-      keyword: 'super'
+    match: 'super'
     name: variable.language.super.ql
   
   then:
-    match:
-      keyword: 'then'
+    match: 'then'
     name: keyword.other.then.ql
 
   this:
-    match:
-      keyword: 'this'
+    match: 'this'
     name: variable.language.this.ql
 
   true:
-    match:
-      keyword: 'true'
+    match: 'true'
     name: constant.language.boolean.true.ql
 
   where:
-    match:
-      keyword: 'where'
+    match: 'where'
     name: keyword.query.where.ql
 
   # Any "true" keyword (not including annotations).
@@ -492,68 +443,55 @@ repository:
 
 # Annotation keywords
   abstract:
-    match:
-      keyword: 'abstract'
+    match: 'abstract'
     name: storage.modifier.abstract.ql
   
   bindingset:
-    match:
-      keyword: 'bindingset'
+    match: 'bindingset'
     name: storage.modifier.bindingset.ql
 
   cached:
-    match:
-      keyword: 'cached'
+    match: 'cached'
     name: storage.modifier.cached.ql
   
   deprecated:
-    match:
-      keyword: 'deprecated'
+    match: 'deprecated'
     name: storage.modifier.deprecated.ql
     
   external:
-    match:
-      keyword: 'external'
+    match: 'external'
     name: storage.modifier.external.ql
   
   final:
-    match:
-      keyword: 'final'
+    match: 'final'
     name: storage.modifier.final.ql
     
   language:
-    match:
-      keyword: 'language'
+    match: 'language'
     name: storage.modifier.language.ql
 
   library:
-    match:
-      keyword: 'library'
+    match: 'library'
     name: storage.modifier.library.ql
   
   override:
-    match:
-      keyword: 'override'
+    match: 'override'
     name: storage.modifier.override.ql
   
   pragma:
-    match:
-      keyword: 'pragma'
+    match: 'pragma'
     name: storage.modifier.pragma.ql
 
   private:
-    match:
-      keyword: 'private'
+    match: 'private'
     name: storage.modifier.private.ql
 
   query:
-    match:
-      keyword: 'query'
+    match: 'query'
     name: storage.modifier.query.ql
 
   transient:
-    match:
-      keyword: 'transient'
+    match: 'transient'
     name: storage.modifier.transient.ql
 
   annotation-keyword:
